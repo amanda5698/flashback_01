@@ -23,7 +23,7 @@ body {
     margin: 1rem 1rem;
     height: 20rem;
     flex-grow: 1;
-    flex-basis: calc(3% - 6rem);
+    flex-basis: calc(33% - 6rem);
 }
 
 .cartao__conteudo {
@@ -62,9 +62,6 @@ body {
     font-weight: 700;
 }
 
-.cartao :hover .cartao__conteudo {
-    transform: rotateY(180deg);
-}
 
 .cartao__conteudo__pergunta,
 .cartao__conteudo__resposta {
@@ -78,7 +75,9 @@ body {
     transform: rotateY(180deg);
 }
 
-
+.cartao:hover .cartao__conteudo {
+    transform: rotateY(180deg);
+}
 
 
 
